@@ -16,7 +16,7 @@ public class MyClass {
 	public void show()
 	{
 		System.out.println("Hello GFG");
-		System.out.println("Welome to Jenkins Pipeline");
+		System.out.println("Welome to Jenkins Pipeline, This is DevOps class");
 	}
 	public int areaCube(int s)
 	{
