@@ -1,6 +1,8 @@
 package mypkg;
 import java.util.Scanner;
 public class MyClass {
+
+	
 	public int areaRect(int l , int b)
 	{
 		return (l*b);
@@ -22,7 +24,22 @@ public class MyClass {
 	{
 		return (6*s);
 	}
+	public int sumNew(int a, int b)
+	{
+		int c;
+		int d;
+		int e;
+		c=10+10;
+		return c;
+	}
 	
+	public int sum(int a, int b)
+	{
+		int f;
+		int g;
+		f=50+60;
+		return f;
+	}	
 	public static void main(String[] args) {
 		MyClass ob = new MyClass();
 		int l;
@@ -35,5 +52,6 @@ public class MyClass {
 		System.out.println("Area of the given Rectangle is : "+ob.areaRect(l, b) );
 		System.out.println("Area of the given Square is : "+ob.areaSq(10) );
 		System.out.println("Area of the given Square is : "+ob.areaCube(10) );
+		System.out.println("The sum is : "+ob.sum(50, 60));
 	}
 }
