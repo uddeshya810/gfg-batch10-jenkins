@@ -18,6 +18,10 @@ public class MyClass {
 		System.out.println("Hello GFG");
 		System.out.println("Welome to Jenkins Pipeline");
 	}
+	public int areaCube(int s)
+	{
+		return (6*s);
+	}
 	
 	public static void main(String[] args) {
 		MyClass ob = new MyClass();
@@ -30,5 +34,6 @@ public class MyClass {
 		b=sc.nextInt();
 		System.out.println("Area of the given Rectangle is : "+ob.areaRect(l, b) );
 		System.out.println("Area of the given Square is : "+ob.areaSq(10) );
+		System.out.println("Area of the given Square is : "+ob.areaCube(10) );
 	}
 }
