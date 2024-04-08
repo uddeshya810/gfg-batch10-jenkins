@@ -17,7 +17,7 @@ pipeline {
 			{
 			 steps
 			 {
-			     bat 'mvn clean' 
+			      'mvn clean' 
 			 }
 			}
 			stage('Maven package')
