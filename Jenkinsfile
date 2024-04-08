@@ -17,28 +17,28 @@ pipeline {
 			{
 			 steps
 			 {
-			    .sh 'mvn clean' 
+			    sh 'mvn clean' 
 			 }
 			}
 			stage('Maven package')
 			{
 			 steps
 			 {
-			 	bat 'mvn package' 
+			 	sh 'mvn package' 
 			 }
 			}
 			stage('Maven Install')
 			{
 			 steps
 			 {
-			 	bat 'mvn install' 
+			 	sh 'mvn install' 
 			 }
 			}
 			stage('Maven Test')
 			{
 			 steps
 			 {
-			 	bat 'mvn test' 
+			 	sh 'mvn test' 
 			 }
 			}
 			stage('Final Build Step')
